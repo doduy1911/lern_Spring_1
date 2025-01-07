@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UserSecvice {
     @GetMapping("/")
     public String handHello() {
-        return "hello";
+        return "index.html";
     }
 
 }
